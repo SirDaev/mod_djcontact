@@ -44,7 +44,7 @@
 		
 		// The Notification Email
 		$message = '<html><body>';
-		$message .= '<p><b>D/F Machine Specialties, Inc.</b></p>';
+		$message .= '<p>www.davejudd.com</p>';
 		$message .= '<p>You have a new message with the following information:</p>';
 		$message .= '<p><strong>Name:</strong> ' . $name . '</p>';
 		$message .= '<p><strong>Email:</strong> ' . $email . '</p>';
