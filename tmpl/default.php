@@ -23,10 +23,10 @@
 	
 		///// Handle the Form Data /////
 		
-		$name = mysql_real_escape_string($_POST['name']);
-		$email = mysql_real_escape_string($_POST['email']);
-		$phone = mysql_real_escape_string($_POST['phone']);
-		$formtext = mysql_real_escape_string($_POST['formtext']);
+		$name = $_POST['name'];
+		$email = $_POST['email'];
+		$phone = $_POST['phone'];
+		$formtext = $_POST['formtext'];
 		
 		///// Build the Notification Email /////
 		
